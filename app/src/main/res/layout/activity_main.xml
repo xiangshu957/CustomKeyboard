@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.rokin.wms.customedit.CodeEditText
+        android:id="@+id/et_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_2"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@mipmap/ic_launcher"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        app:strokeBackground="@drawable/drawable_code_edit"
+        app:strokeHeight="@dimen/dp_50"
+        app:strokeLength="8"
+        app:strokePadding="@dimen/dp_5"
+        app:strokeWidth="@dimen/dp_40" />
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboard_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_500"
+        android:layout_alignParentBottom="true"
+        android:alpha="0"
+        android:background="#D3D0D0"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@drawable/btn_keyboard_key"
+        android:keyTextColor="#000"
+        android:keyTextSize="@dimen/sp_16"
+        android:paddingTop="@dimen/dp_8"
+        android:paddingBottom="@dimen/dp_8"
+        android:shadowRadius="0.0"
+        android:visibility="invisible" />
+
+</RelativeLayout>
