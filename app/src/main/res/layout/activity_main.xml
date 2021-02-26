@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.rokin.wms.customedit.CodeEditText
+    <com.example.customkeyboard.customedit.CodeEditText
         android:id="@+id/et_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

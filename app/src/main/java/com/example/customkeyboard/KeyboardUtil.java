@@ -1,4 +1,4 @@
-package com.rokin.wms.customkeyboard;
+package com.example.customkeyboard;
 
 import android.app.Activity;
 import android.inputmethodservice.Keyboard;

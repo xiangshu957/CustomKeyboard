@@ -1,4 +1,4 @@
-package com.rokin.wms.customedit;
+package com.example.customkeyboard.customedit;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -15,7 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatEditText;
 
-import com.rokin.wms.customkeyboard.R;
+import com.example.customkeyboard.R;
 
 /**
  * @Author: ZhangRuixiang

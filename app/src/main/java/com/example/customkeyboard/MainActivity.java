@@ -1,4 +1,4 @@
-package com.rokin.wms.customkeyboard;
+package com.example.customkeyboard;
 
 import android.inputmethodservice.KeyboardView;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.rokin.wms.customedit.CodeEditText;
+import com.example.customkeyboard.customedit.CodeEditText;
 
 public class MainActivity extends AppCompatActivity {
 
